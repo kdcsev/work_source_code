@@ -1,0 +1,531 @@
+body .home-page .text-normal-spacing {
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+body .home-page .text-desc {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+body .home-page .hs-line-14-1 {
+    margin-top: 0;
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+body .home-page .hs-line-8-1 {
+    margin-top: 0;
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+body .home-page .font-alt {
+    font-family: inherit;
+}
+
+body .home-page .banner-image {
+    margin: 0;
+    margin-top: 60px;
+    text-align: left;
+}
+
+body .home-page .section-main-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 75px 0;
+}
+
+body .home-page .section-thumbnail {
+    width: 80%;
+}
+
+body .home-page .trading-widget-box {
+    width: 80%;
+}
+
+body .home-page .section-footer {
+    display: block;
+    background: #ffffff;
+    padding: 60px 15px;
+    margin-top: -60px;
+}
+
+body .home-page .divider-box {
+    padding-top: 80px;
+    background: #fff;
+}
+
+body .home-page .banner-image-box-1 {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+body .home-page .banner-image-box-1 img {
+    position: relative;
+    left: 0;
+    bottom: -45px;
+}
+
+body .home-page .banner-image-box-2 {
+    display: block;
+    position: relative;
+    text-align: right;
+}
+
+body .home-page .banner-image-box-2 img {
+    position: relative;
+    left: 0;
+    bottom: -50px;
+}
+
+body .home-page .list-1 li {
+    margin-bottom: 15px;
+}
+
+body .home-page .banner-heading {
+    font-weight: bold;
+}
+
+body .home-page .divider-half-1 {
+    width: 33%;
+    border-bottom: 3px solid #333;
+    margin: auto;
+    text-align: center;
+}
+
+body .home-page .icon-img {
+    width: 24px;
+    height: auto;
+}
+
+body .home-page .social-btn {
+    text-decoration: none !important;
+    margin-left: 15px;
+}
+
+body .home-page .bg-dark-alfa-95:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(34, 34, 34, 0.95);
+}
+
+body .home-page .main-content .page-section:first-child {
+    padding-top: 120px;
+}
+
+body .home-page .main-content .page-section:last-child {
+    padding-bottom: 40px;
+}
+
+body .home-page .alpha-btn,
+body .home-page .alpha-btn1 {
+    display: inline-block;
+    margin: auto;
+    background-color: #06a043;
+    font-size: 15px;
+    padding: 10px 50px;
+    color: #fff !important;
+    border-radius: 5px;
+    text-decoration: none !important;
+    border: 1px solid #555;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+body .home-page .people-avatar {
+    width: 80%;
+}
+
+body .home-page .intro-video-box {
+    width: 100%;
+}
+
+body .home-page .vimeo-iframe {
+    width: 640px;
+    height: 360px;
+}
+
+body .home-page .bottom-h-divider {
+    background: #777777;
+    width: 80%;
+    height: 5px;
+    margin: 30px auto;
+}
+
+body .home-page .rank-img-wrapper {
+    margin-bottom: 30px;
+}
+
+body .home-page .rank-img {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+body .home-page .rank-table-img {
+    width: 65%;
+}
+
+body .home-page .reg-form .logo-wrapper img {
+    width: 320px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+body .home-page .plan-thumb-img,
+body .home-page .radio-desc-wrapper {
+    cursor: pointer;
+}
+
+body .home-page .creditCardForm .payment select {
+    display: inline-block;
+    width: auto;
+    padding: 2px 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+body .home-page #credit_cards img {
+    width: 45px;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+body .home-page .btn-login {
+    width: 150px;
+}
+
+body .home-page .btn-login.btn-register {
+    width: 200px;
+}
+
+body .home-page .login-form {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+body .home-page .login-form.reset-password-form {
+    width: 456px;
+    max-width: 100%;
+}
+
+body .home-page .login-form .logo-wrapper img {
+    width: 65%;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+body .home-page .login-form.reset-password-form .logo-wrapper img {
+    width: 57%;
+    margin-bottom: 20px;
+}
+
+body .home-page .register-btn-wrapper {
+    border-right: 1px solid #777777;
+    text-align: right;
+}
+
+body .home-page .reset-password-btn-wrapper {
+    text-align: left;
+}
+
+body .home-page .rewards-plan-desc {
+    font-size: 15px;
+}
+
+body .home-page .gray-box {
+    color: #fff;
+    background: #777777;
+    padding: 30px;
+}
+
+body .home-page .gray-box * {
+    color: #fff !important;
+}
+
+body .home-page .white-devider-1 {
+    background: #fff;
+    width: 100%;
+    height: 5px;
+}
+
+body .home-page .img-box-1 img {
+    width: 66%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+body .home-page .rank-img-1 {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+body .home-page .rank-name {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+
+body .home-page .rank-desc {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 1.75em;
+}
+
+body .home-page .rank-desc-1 {
+    display: block;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+body .home-page .rank-residual {
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: 100;
+}
+
+body .home-page .rank-row {
+    margin-bottom: 30px;
+}
+
+body .home-page .people-name,
+body .home-page .people-desc {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+body .home-page .desc-v1-1 {
+    letter-spacing: 2px;
+    line-height: 1.8em;
+}
+
+body .home-page .reg-form label,
+body .home-page .form-group label {
+    /* letter-spacing: 2px; */
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+body .home-page .rewards-feature-box ul li {
+    line-height: 2;
+}
+
+body .home-page .testimonial p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+body .home-page .btn {
+    text-decoration: none !important;
+}
+
+body .home-page .btn.btn-green {
+    font-size: 15px;
+    color: #fff !important;
+    background: #06a043 !important;
+    text-decoration: none !important;
+    border-radius: 3px;
+    outline: none !important;
+    border-color: #06a043;
+}
+body .home-page .btn.btn-green:hover,
+body .home-page .btn.btn-green:focus {
+    background: #068d3b !important;
+}
+
+body .home-page .font-normal {
+    font-size: 14px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.btn-outline-gray {
+    color: #8a8a8a !important;
+    border-color: #8a8a8a !important;
+    transform: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: not-allowed !important;
+}
+
+.btn-spiner i {
+    display: none;
+}
+
+.btn-spiner.loading span {
+    display: none;
+}
+
+.btn-spiner.loading i {
+    display: inline-block;
+}
+
+.btn-spiner.loading {
+    transform: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: not-allowed !important;
+}
+
+body .home-page .sponsor-check-block {
+    display: flex;
+    width: 100%;
+}
+
+body .home-page .sponsor-edit-block {
+    flex-grow: 1;
+}
+
+body .home-page .sponsor-btn-block {
+    flex-grow: 0;
+    padding: 0 0 0 10px;
+}
+
+body .home-page .btn-check-sponsor {
+    min-width: 90px;
+}
+
+body .home-page .appstore-btn-group {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+body .home-page .appstore-btn {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 190px;
+}
+
+body .home-page .appstore-btn img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+
+body .home-page .coupon-check-block {
+    display: flex;
+    width: 100%;
+}
+
+body .home-page .coupon-edit-block {
+    flex-grow: 1;
+}
+
+body .home-page .coupon-btn-block {
+    flex-grow: 0;
+    padding: 0 0 0 10px;
+}
+
+body .home-page .btn-check-coupon {
+    min-width: 90px;
+}
+
+@media screen and (max-width: 1278px) and (min-width: 1042px) {
+    body .home-page .menu-item-register {
+        display: none !important;
+    }
+}
+
+body .home-page .plan-item-box {
+    text-align: center;
+}
+
+body .home-page .plan-item-box img {
+    width: 100%;
+    max-width: 124px;
+    display: block;
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+}
+
+body .trading-widget-box1 .section-thumbnail {
+    width: 100%;
+    margin-left: -10%;
+}
+
+/* body .home-page .blog-list-item {
+    border: 1px solid #efefef;
+} */
+
+body .home-page .post-main-box {
+    padding: 0em 1.3em 1.3em 1.3em;
+}
+
+body .home-page .post-title-box {
+    min-height: 6em;
+}
+
+body .home-page .widget-posts-img-1 {
+    width: 60px !important;
+    height: 60px !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    border-radius: 100%;
+    border: 1px solid #efefef;
+    margin-right: 1em;
+}
+
+body .home-page .widget-posts-item {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px !important;
+}
+
+body .home-page .author {
+    font-size: 0.85em;
+}
+
+body .home-page .h1-page-title {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+body .home-page .h1-auth-page-title {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+body .home-page .blog-title {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+

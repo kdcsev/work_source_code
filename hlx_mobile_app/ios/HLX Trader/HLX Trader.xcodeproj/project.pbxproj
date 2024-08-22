@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504152B6FCE6D986A8548509 /* Pods_HLX_Trader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD81B9F3D9E25566DBFF2217 /* Pods_HLX_Trader.framework */; };
+		A60E224A24444303008AB1A0 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E224924444303008AB1A0 /* Configs.swift */; };
+		A61769FF26C0F1810074CC5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A61769FE26C0F1810074CC5C /* GoogleService-Info.plist */; };
+		A62E2B6C2425770C0035DEBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E2B6B2425770C0035DEBD /* AppDelegate.swift */; };
+		A62E2B752425770C0035DEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62E2B742425770C0035DEBD /* Assets.xcassets */; };
+		A62E2B782425770C0035DEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62E2B762425770C0035DEBD /* LaunchScreen.storyboard */; };
+		A63FE46126A4F00200C9DAB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63FE46026A4F00200C9DAB1 /* HomeViewController.swift */; };
+		A63FE46326A4F47100C9DAB1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63FE46226A4F47100C9DAB1 /* Utils.swift */; };
+		A63FE46526A53C9700C9DAB1 /* TradeAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63FE46426A53C9700C9DAB1 /* TradeAlertsViewController.swift */; };
+		A66C191525120F0A002186C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66C191425120F0A002186C1 /* Extensions.swift */; };
+		A66E9BE6269F76FF00AEFF46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66E9BE4269F76FF00AEFF46 /* Main.storyboard */; };
+		A66E9BE8269F795800AEFF46 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E9BE7269F795800AEFF46 /* SplashViewController.swift */; };
+		A66E9BEB269F79F200AEFF46 /* back_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A66E9BEA269F79F200AEFF46 /* back_video.mp4 */; };
+		A688F59226ACD1BC006998FD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A688F59126ACD1BC006998FD /* MainTabBarController.swift */; };
+		A698235D26A64242005B96AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698235C26A64242005B96AC /* LoginViewController.swift */; };
+		A698235F26A7632F005B96AC /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698235E26A7632E005B96AC /* ToolsViewController.swift */; };
+		A698236126A7644F005B96AC /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698236026A7644F005B96AC /* ChartViewController.swift */; };
+		A698236326A76881005B96AC /* live_chart.html in Resources */ = {isa = PBXBuildFile; fileRef = A698236226A76881005B96AC /* live_chart.html */; };
+		A69FEBCA26D80E6500FC081A /* HelpTradeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69FEBC926D80E6400FC081A /* HelpTradeCell.swift */; };
+		A6A318F126D841C400E89476 /* HelpJoinGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A318F026D841C400E89476 /* HelpJoinGroupCell.swift */; };
+		A6B053342452387600965B4A /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B053332452387600965B4A /* APICall.swift */; };
+		A6BC9AD826B0AC06007336F6 /* ForexCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC9AD726B0AC06007336F6 /* ForexCourseViewController.swift */; };
+		A6DBB70B26D048BA0031AB37 /* HelpTradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBB70A26D048B90031AB37 /* HelpTradeViewController.swift */; };
+		A6E05E4026B1FF4600306438 /* ForexCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E05E3F26B1FF4600306438 /* ForexCourseCell.swift */; };
+		A6E05E4226B2A90A00306438 /* ToolWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E05E4126B2A90A00306438 /* ToolWebViewController.swift */; };
+		A6E05E4926B2AE3B00306438 /* news_calendar.html in Resources */ = {isa = PBXBuildFile; fileRef = A6E05E4426B2AE3B00306438 /* news_calendar.html */; };
+		A6E05E4A26B2AE3C00306438 /* pip_size_calculator.html in Resources */ = {isa = PBXBuildFile; fileRef = A6E05E4526B2AE3B00306438 /* pip_size_calculator.html */; };
+		A6E05E4B26B2AE3C00306438 /* currency.html in Resources */ = {isa = PBXBuildFile; fileRef = A6E05E4626B2AE3B00306438 /* currency.html */; };
+		A6E05E4C26B2AE3C00306438 /* position_size_calculator.html in Resources */ = {isa = PBXBuildFile; fileRef = A6E05E4726B2AE3B00306438 /* position_size_calculator.html */; };
+		A6E05E4E26B2DB0300306438 /* BuySellPowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E05E4D26B2DB0300306438 /* BuySellPowerViewController.swift */; };
+		A6E1A3702746CB84007A0675 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A36F2746CB84007A0675 /* UserViewController.swift */; };
+		A6F291A026C1D3CA00950AB5 /* TradeDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2919F26C1D3CA00950AB5 /* TradeDataCell.swift */; };
+		A6F70CE126B553B800CC5F49 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F70CDB26B553B800CC5F49 /* Lato-Bold.ttf */; };
+		A6F70CE226B553B800CC5F49 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F70CDC26B553B800CC5F49 /* Lato-Light.ttf */; };
+		A6F70CE326B553B800CC5F49 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F70CDD26B553B800CC5F49 /* Lato-Regular.ttf */; };
+		A6F70CE426B553B800CC5F49 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F70CDE26B553B800CC5F49 /* Raleway-Bold.ttf */; };
+		A6F70CE526B553B800CC5F49 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F70CDF26B553B800CC5F49 /* Raleway-Regular.ttf */; };
+		A6F70CE626B553B800CC5F49 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6F70CE026B553B800CC5F49 /* Raleway-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F5D64AED8A0AA2CC7BF3891 /* Pods-HLX Trader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLX Trader.release.xcconfig"; path = "Target Support Files/Pods-HLX Trader/Pods-HLX Trader.release.xcconfig"; sourceTree = "<group>"; };
+		398DE7486ED5861B8F89FE8E /* Pods-HLX Trader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLX Trader.debug.xcconfig"; path = "Target Support Files/Pods-HLX Trader/Pods-HLX Trader.debug.xcconfig"; sourceTree = "<group>"; };
+		A60E224924444303008AB1A0 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		A61769FE26C0F1810074CC5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6176A0026C125F30074CC5C /* HLX Trader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HLX Trader.entitlements"; sourceTree = "<group>"; };
+		A62E2B682425770C0035DEBD /* HLX Trader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLX Trader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62E2B6B2425770C0035DEBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A62E2B742425770C0035DEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A62E2B772425770C0035DEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A62E2B792425770D0035DEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63FE46026A4F00200C9DAB1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A63FE46226A4F47100C9DAB1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A63FE46426A53C9700C9DAB1 /* TradeAlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeAlertsViewController.swift; sourceTree = "<group>"; };
+		A66C191425120F0A002186C1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A66E9BE5269F76FF00AEFF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66E9BE7269F795800AEFF46 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A66E9BEA269F79F200AEFF46 /* back_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_video.mp4; sourceTree = "<group>"; };
+		A688F59126ACD1BC006998FD /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A698235C26A64242005B96AC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A698235E26A7632E005B96AC /* ToolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
+		A698236026A7644F005B96AC /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		A698236226A76881005B96AC /* live_chart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = live_chart.html; sourceTree = "<group>"; };
+		A69FEBC926D80E6400FC081A /* HelpTradeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpTradeCell.swift; sourceTree = "<group>"; };
+		A6A318F026D841C400E89476 /* HelpJoinGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpJoinGroupCell.swift; sourceTree = "<group>"; };
+		A6B053332452387600965B4A /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		A6BC9AD726B0AC06007336F6 /* ForexCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForexCourseViewController.swift; sourceTree = "<group>"; };
+		A6DBB70A26D048B90031AB37 /* HelpTradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpTradeViewController.swift; sourceTree = "<group>"; };
+		A6E05E3F26B1FF4600306438 /* ForexCourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForexCourseCell.swift; sourceTree = "<group>"; };
+		A6E05E4126B2A90A00306438 /* ToolWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolWebViewController.swift; sourceTree = "<group>"; };
+		A6E05E4426B2AE3B00306438 /* news_calendar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news_calendar.html; sourceTree = "<group>"; };
+		A6E05E4526B2AE3B00306438 /* pip_size_calculator.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pip_size_calculator.html; sourceTree = "<group>"; };
+		A6E05E4626B2AE3B00306438 /* currency.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = currency.html; sourceTree = "<group>"; };
+		A6E05E4726B2AE3B00306438 /* position_size_calculator.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = position_size_calculator.html; sourceTree = "<group>"; };
+		A6E05E4D26B2DB0300306438 /* BuySellPowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuySellPowerViewController.swift; sourceTree = "<group>"; };
+		A6E1A36F2746CB84007A0675 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A6F2919F26C1D3CA00950AB5 /* TradeDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeDataCell.swift; sourceTree = "<group>"; };
+		A6F70CDB26B553B800CC5F49 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		A6F70CDC26B553B800CC5F49 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		A6F70CDD26B553B800CC5F49 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		A6F70CDE26B553B800CC5F49 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		A6F70CDF26B553B800CC5F49 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		A6F70CE026B553B800CC5F49 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		BD81B9F3D9E25566DBFF2217 /* Pods_HLX_Trader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLX_Trader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62E2B652425770C0035DEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504152B6FCE6D986A8548509 /* Pods_HLX_Trader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60E222B2444043E008AB1A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A66C191425120F0A002186C1 /* Extensions.swift */,
+				A63FE46226A4F47100C9DAB1 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A60E2248244442DC008AB1A0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A60E224924444303008AB1A0 /* Configs.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A62E2B5F2425770C0035DEBD = {
+			isa = PBXGroup;
+			children = (
+				A62E2B6A2425770C0035DEBD /* HLX Trader */,
+				A62E2B692425770C0035DEBD /* Products */,
+				D95385D7148FB670A083CFE9 /* Pods */,
+				FE96D380D345161891827CE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A62E2B692425770C0035DEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62E2B682425770C0035DEBD /* HLX Trader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62E2B6A2425770C0035DEBD /* HLX Trader */ = {
+			isa = PBXGroup;
+			children = (
+				A6176A0026C125F30074CC5C /* HLX Trader.entitlements */,
+				A62E2B6B2425770C0035DEBD /* AppDelegate.swift */,
+				A60E2248244442DC008AB1A0 /* Config */,
+				A66E9BE9269F79F200AEFF46 /* Resources */,
+				A6B053322452387600965B4A /* APICall */,
+				A60E222B2444043E008AB1A0 /* Helpers */,
+				A6EA5D592425893000533F2C /* MainMenu */,
+				A66E9BE4269F76FF00AEFF46 /* Main.storyboard */,
+				A62E2B742425770C0035DEBD /* Assets.xcassets */,
+				A62E2B762425770C0035DEBD /* LaunchScreen.storyboard */,
+				A62E2B792425770D0035DEBD /* Info.plist */,
+				A61769FE26C0F1810074CC5C /* GoogleService-Info.plist */,
+			);
+			path = "HLX Trader";
+			sourceTree = "<group>";
+		};
+		A66E9BE9269F79F200AEFF46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6F70CDA26B553B800CC5F49 /* Fonts */,
+				A66E9BEA269F79F200AEFF46 /* back_video.mp4 */,
+				A698236226A76881005B96AC /* live_chart.html */,
+				A6E05E4426B2AE3B00306438 /* news_calendar.html */,
+				A6E05E4526B2AE3B00306438 /* pip_size_calculator.html */,
+				A6E05E4726B2AE3B00306438 /* position_size_calculator.html */,
+				A6E05E4626B2AE3B00306438 /* currency.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6A9FB70250015C2000706EF /* MainMenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				A6F2919F26C1D3CA00950AB5 /* TradeDataCell.swift */,
+				A6E05E3F26B1FF4600306438 /* ForexCourseCell.swift */,
+				A69FEBC926D80E6400FC081A /* HelpTradeCell.swift */,
+				A6A318F026D841C400E89476 /* HelpJoinGroupCell.swift */,
+			);
+			path = MainMenuViews;
+			sourceTree = "<group>";
+		};
+		A6B053322452387600965B4A /* APICall */ = {
+			isa = PBXGroup;
+			children = (
+				A6B053332452387600965B4A /* APICall.swift */,
+			);
+			path = APICall;
+			sourceTree = "<group>";
+		};
+		A6EA5D592425893000533F2C /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9FB70250015C2000706EF /* MainMenuViews */,
+				A66E9BE7269F795800AEFF46 /* SplashViewController.swift */,
+				A63FE46026A4F00200C9DAB1 /* HomeViewController.swift */,
+				A63FE46426A53C9700C9DAB1 /* TradeAlertsViewController.swift */,
+				A6DBB70A26D048B90031AB37 /* HelpTradeViewController.swift */,
+				A6E1A36F2746CB84007A0675 /* UserViewController.swift */,
+				A698235C26A64242005B96AC /* LoginViewController.swift */,
+				A698235E26A7632E005B96AC /* ToolsViewController.swift */,
+				A6E05E4126B2A90A00306438 /* ToolWebViewController.swift */,
+				A6E05E4D26B2DB0300306438 /* BuySellPowerViewController.swift */,
+				A698236026A7644F005B96AC /* ChartViewController.swift */,
+				A688F59126ACD1BC006998FD /* MainTabBarController.swift */,
+				A6BC9AD726B0AC06007336F6 /* ForexCourseViewController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		A6F70CDA26B553B800CC5F49 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A6F70CDB26B553B800CC5F49 /* Lato-Bold.ttf */,
+				A6F70CDC26B553B800CC5F49 /* Lato-Light.ttf */,
+				A6F70CDD26B553B800CC5F49 /* Lato-Regular.ttf */,
+				A6F70CDE26B553B800CC5F49 /* Raleway-Bold.ttf */,
+				A6F70CDF26B553B800CC5F49 /* Raleway-Regular.ttf */,
+				A6F70CE026B553B800CC5F49 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D95385D7148FB670A083CFE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				398DE7486ED5861B8F89FE8E /* Pods-HLX Trader.debug.xcconfig */,
+				2F5D64AED8A0AA2CC7BF3891 /* Pods-HLX Trader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE96D380D345161891827CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD81B9F3D9E25566DBFF2217 /* Pods_HLX_Trader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62E2B672425770C0035DEBD /* HLX Trader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62E2B7C2425770D0035DEBD /* Build configuration list for PBXNativeTarget "HLX Trader" */;
+			buildPhases = (
+				E925BC60B492223BC7978529 /* [CP] Check Pods Manifest.lock */,
+				A62E2B642425770C0035DEBD /* Sources */,
+				A62E2B652425770C0035DEBD /* Frameworks */,
+				A62E2B662425770C0035DEBD /* Resources */,
+				A24D3D8ACFA8B68369B9FBE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HLX Trader";
+			productName = ForeLong;
+			productReference = A62E2B682425770C0035DEBD /* HLX Trader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62E2B602425770C0035DEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = PingPong;
+				TargetAttributes = {
+					A62E2B672425770C0035DEBD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A62E2B632425770C0035DEBD /* Build configuration list for PBXProject "HLX Trader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A62E2B5F2425770C0035DEBD;
+			productRefGroup = A62E2B692425770C0035DEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62E2B672425770C0035DEBD /* HLX Trader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62E2B662425770C0035DEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F70CE126B553B800CC5F49 /* Lato-Bold.ttf in Resources */,
+				A6F70CE626B553B800CC5F49 /* Raleway-SemiBold.ttf in Resources */,
+				A6F70CE526B553B800CC5F49 /* Raleway-Regular.ttf in Resources */,
+				A66E9BEB269F79F200AEFF46 /* back_video.mp4 in Resources */,
+				A62E2B782425770C0035DEBD /* LaunchScreen.storyboard in Resources */,
+				A6F70CE226B553B800CC5F49 /* Lato-Light.ttf in Resources */,
+				A698236326A76881005B96AC /* live_chart.html in Resources */,
+				A62E2B752425770C0035DEBD /* Assets.xcassets in Resources */,
+				A6E05E4B26B2AE3C00306438 /* currency.html in Resources */,
+				A61769FF26C0F1810074CC5C /* GoogleService-Info.plist in Resources */,
+				A6F70CE426B553B800CC5F49 /* Raleway-Bold.ttf in Resources */,
+				A6E05E4A26B2AE3C00306438 /* pip_size_calculator.html in Resources */,
+				A66E9BE6269F76FF00AEFF46 /* Main.storyboard in Resources */,
+				A6F70CE326B553B800CC5F49 /* Lato-Regular.ttf in Resources */,
+				A6E05E4926B2AE3B00306438 /* news_calendar.html in Resources */,
+				A6E05E4C26B2AE3C00306438 /* position_size_calculator.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A24D3D8ACFA8B68369B9FBE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLX Trader/Pods-HLX Trader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLX Trader/Pods-HLX Trader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLX Trader/Pods-HLX Trader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E925BC60B492223BC7978529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLX Trader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62E2B642425770C0035DEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A698235D26A64242005B96AC /* LoginViewController.swift in Sources */,
+				A6E05E4026B1FF4600306438 /* ForexCourseCell.swift in Sources */,
+				A6E05E4E26B2DB0300306438 /* BuySellPowerViewController.swift in Sources */,
+				A63FE46326A4F47100C9DAB1 /* Utils.swift in Sources */,
+				A69FEBCA26D80E6500FC081A /* HelpTradeCell.swift in Sources */,
+				A6B053342452387600965B4A /* APICall.swift in Sources */,
+				A6E05E4226B2A90A00306438 /* ToolWebViewController.swift in Sources */,
+				A6E1A3702746CB84007A0675 /* UserViewController.swift in Sources */,
+				A6BC9AD826B0AC06007336F6 /* ForexCourseViewController.swift in Sources */,
+				A63FE46526A53C9700C9DAB1 /* TradeAlertsViewController.swift in Sources */,
+				A60E224A24444303008AB1A0 /* Configs.swift in Sources */,
+				A63FE46126A4F00200C9DAB1 /* HomeViewController.swift in Sources */,
+				A6F291A026C1D3CA00950AB5 /* TradeDataCell.swift in Sources */,
+				A62E2B6C2425770C0035DEBD /* AppDelegate.swift in Sources */,
+				A6DBB70B26D048BA0031AB37 /* HelpTradeViewController.swift in Sources */,
+				A66E9BE8269F795800AEFF46 /* SplashViewController.swift in Sources */,
+				A66C191525120F0A002186C1 /* Extensions.swift in Sources */,
+				A6A318F126D841C400E89476 /* HelpJoinGroupCell.swift in Sources */,
+				A688F59226ACD1BC006998FD /* MainTabBarController.swift in Sources */,
+				A698235F26A7632F005B96AC /* ToolsViewController.swift in Sources */,
+				A698236126A7644F005B96AC /* ChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A62E2B762425770C0035DEBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62E2B772425770C0035DEBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A66E9BE4269F76FF00AEFF46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66E9BE5269F76FF00AEFF46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62E2B7A2425770D0035DEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A62E2B7B2425770D0035DEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62E2B7D2425770D0035DEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398DE7486ED5861B8F89FE8E /* Pods-HLX Trader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HLX Trader/HLX Trader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 7XNDW42SMX;
+				INFOPLIST_FILE = "HLX Trader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.higherlevelfx.HLXTrader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A62E2B7E2425770D0035DEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5D64AED8A0AA2CC7BF3891 /* Pods-HLX Trader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HLX Trader/HLX Trader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 7XNDW42SMX;
+				INFOPLIST_FILE = "HLX Trader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.higherlevelfx.HLXTrader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62E2B632425770C0035DEBD /* Build configuration list for PBXProject "HLX Trader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62E2B7A2425770D0035DEBD /* Debug */,
+				A62E2B7B2425770D0035DEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62E2B7C2425770D0035DEBD /* Build configuration list for PBXNativeTarget "HLX Trader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62E2B7D2425770D0035DEBD /* Debug */,
+				A62E2B7E2425770D0035DEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62E2B602425770C0035DEBD /* Project object */;
+}

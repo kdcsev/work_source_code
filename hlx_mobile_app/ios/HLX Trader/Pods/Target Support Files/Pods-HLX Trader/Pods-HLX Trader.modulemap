@@ -1,0 +1,6 @@
+framework module Pods_HLX_Trader {
+  umbrella header "Pods-HLX Trader-umbrella.h"
+
+  export *
+  module * { export * }
+}
